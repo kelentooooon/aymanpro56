@@ -12,7 +12,7 @@ export function DownloadApp() {
         <div className="flex gap-3 justify-center flex-wrap">
           <a href="#" className="no-underline">
             <img
-              src="/icons/app-store.jpg"
+              src="/icons/app-store.svg"
               alt="Apple App Store"
               className="max-h-12 object-contain"
               loading="lazy"
@@ -20,7 +20,7 @@ export function DownloadApp() {
           </a>
           <a href="#" className="no-underline">
             <img
-              src="/icons/google-play.jpg"
+              src="/icons/google-play.svg"
               alt="Google Play Store"
               className="max-h-12 object-contain"
               loading="lazy"
@@ -28,7 +28,7 @@ export function DownloadApp() {
           </a>
           <a href="#" className="no-underline">
             <img
-              src="/icons/app-gallery.jpg"
+              src="/icons/app-gallery.svg"
               alt="App Gallery"
               className="max-h-12 object-contain"
               loading="lazy"

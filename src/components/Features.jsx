@@ -1,8 +1,8 @@
 export function Features() {
   const features = [
-    { icon: "/icons/ellipse-tools.png", title: "Full Maintenance" },
-    { icon: "/icons/ellipse-cart.png", title: "Store" },
-    { icon: "/icons/ellipse-phone.png", title: "Call Service" },
+    { icon: "/icons/tools.svg", title: "Full Maintenance" },
+    { icon: "/icons/cart.svg", title: "Store" },
+    { icon: "/icons/phone.svg", title: "Call Service" },
   ]
 
   return (

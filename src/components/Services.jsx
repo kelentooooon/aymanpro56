@@ -1,13 +1,13 @@
 export function Services() {
   const services = [
-    { icon: "/icons/vector-maintenance.png", title: "Car maintenance", color: "#c41e3a" },
-    { icon: "/icons/vector-alert.png", title: "Car Inspection", color: "#c41e3a" },
-    { icon: "/icons/vector-oil.png", title: "Change oil", color: "#c41e3a" },
-    { icon: "/icons/vector-spray.png", title: "Car Wash", color: "#c41e3a" },
-    { icon: "/icons/vector-spray.png", title: "Car Spray", color: "#c41e3a" },
-    { icon: "/icons/vector-wrench.png", title: "Fix Brake", color: "#c41e3a" },
-    { icon: "/icons/vector-wheel.png", title: "Car Accessories", color: "#c41e3a" },
-    { icon: "/icons/vector-phone.png", title: "Call service", color: "#c41e3a" },
+    { icon: "/icons/maintenance.svg", title: "Car maintenance", color: "#c41e3a" },
+    { icon: "/icons/alert.svg", title: "Car Inspection", color: "#c41e3a" },
+    { icon: "/icons/oil.svg", title: "Change oil", color: "#c41e3a" },
+    { icon: "/icons/spray.svg", title: "Car Wash", color: "#c41e3a" },
+    { icon: "/icons/spray.svg", title: "Car Spray", color: "#c41e3a" },
+    { icon: "/icons/wrench.svg", title: "Fix Brake", color: "#c41e3a" },
+    { icon: "/icons/wheel.svg", title: "Car Accessories", color: "#c41e3a" },
+    { icon: "/icons/phone.svg", title: "Call service", color: "#c41e3a" },
   ]
 
   return (

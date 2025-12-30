@@ -10,7 +10,7 @@ export function Footer() {
             <div className="flex gap-3">
               <a href="#" className="text-white no-underline">
                 <img
-                  src="/icons/facebook.jpg"
+                  src="/icons/facebook.svg"
                   alt="Facebook"
                   className="max-h-8 object-contain"
                   loading="lazy"
@@ -18,7 +18,7 @@ export function Footer() {
               </a>
               <a href="#" className="text-white no-underline">
                 <img
-                  src="/icons/instagram.jpg"
+                  src="/icons/instagram.svg"
                   alt="Instagram"
                   className="max-h-8 object-contain"
                   loading="lazy"
@@ -26,7 +26,7 @@ export function Footer() {
               </a>
               <a href="#" className="text-white no-underline">
                 <img
-                  src="/icons/x.jpg"
+                  src="/icons/x.svg"
                   alt="X (Twitter)"
                   className="max-h-8 object-contain"
                   loading="lazy"
