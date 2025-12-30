@@ -21,6 +21,7 @@ export function Features() {
                   alt={feature.title}
                   style={{ width: "60px", height: "60px", objectFit: "contain" }}
                   className="mb-3 mx-auto"
+                  loading="lazy"
                 />
                 <h5 className="font-bold text-lg">{feature.title}</h5>
                 <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>

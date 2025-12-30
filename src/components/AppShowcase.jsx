@@ -17,6 +17,7 @@ export function AppShowcase() {
               src="/images/group-2019.png"
               alt="Mobile app screenshot"
               style={{ maxWidth: "300px", width: "100%", height: "auto", objectFit: "contain" }}
+              loading="lazy"
             />
           </div>
         </div>

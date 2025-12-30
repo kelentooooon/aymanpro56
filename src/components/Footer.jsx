@@ -13,6 +13,7 @@ export function Footer() {
                   src="/icons/facebook.jpg"
                   alt="Facebook"
                   className="max-h-8 object-contain"
+                  loading="lazy"
                 />
               </a>
               <a href="#" className="text-white no-underline">
@@ -20,6 +21,7 @@ export function Footer() {
                   src="/icons/instagram.jpg"
                   alt="Instagram"
                   className="max-h-8 object-contain"
+                  loading="lazy"
                 />
               </a>
               <a href="#" className="text-white no-underline">
@@ -27,6 +29,7 @@ export function Footer() {
                   src="/icons/x.jpg"
                   alt="X (Twitter)"
                   className="max-h-8 object-contain"
+                  loading="lazy"
                 />
               </a>
             </div>

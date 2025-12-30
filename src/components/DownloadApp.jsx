@@ -15,6 +15,7 @@ export function DownloadApp() {
               src="/icons/app-store.jpg"
               alt="Apple App Store"
               className="max-h-12 object-contain"
+              loading="lazy"
             />
           </a>
           <a href="#" className="no-underline">
@@ -22,6 +23,7 @@ export function DownloadApp() {
               src="/icons/google-play.jpg"
               alt="Google Play Store"
               className="max-h-12 object-contain"
+              loading="lazy"
             />
           </a>
           <a href="#" className="no-underline">
@@ -29,6 +31,7 @@ export function DownloadApp() {
               src="/icons/app-gallery.jpg"
               alt="App Gallery"
               className="max-h-12 object-contain"
+              loading="lazy"
             />
           </a>
         </div>

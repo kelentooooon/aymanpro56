@@ -10,6 +10,7 @@ export function LoginContainer({ imageUrl }) {
             alt="Garage with red cars"
             className="w-full h-full object-cover"
             style={{ objectFit: "cover" }}
+            loading="lazy"
           />
         ) : (
           <div className="w-full flex items-center justify-center bg-gray-900 text-gray-500">

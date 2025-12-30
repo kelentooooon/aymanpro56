@@ -25,6 +25,7 @@ export function Services() {
                   alt={service.title}
                   style={{ width: "40px", height: "40px", objectFit: "contain", color: service.color }}
                   className="mb-2"
+                  loading="lazy"
                 />
                 <h6 className="font-bold mb-2" style={{ color: service.color }}>
                   {service.title}
