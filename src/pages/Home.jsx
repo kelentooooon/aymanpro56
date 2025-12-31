@@ -3,7 +3,6 @@ import { HeroSection } from "../components/HeroSection"
 import { WhoAreWe } from "../components/WhoAreWe"
 import { Features } from "../components/Features"
 import { Services } from "../components/Services"
-import { AppShowcase } from "../components/AppShowcase"
 import { DownloadApp } from "../components/DownloadApp"
 import { Footer } from "../components/Footer"
 
@@ -15,7 +14,6 @@ export function Home() {
       <WhoAreWe />
       <Features />
       <Services />
-      <AppShowcase />
       <DownloadApp />
       <Footer />
     </>

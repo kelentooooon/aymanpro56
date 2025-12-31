@@ -8,18 +8,24 @@ export function WhoAreWe() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center">
           <div>
             <p className="text-gray-500 mb-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit, cursus vel sem ut, consequat nec
-              aliquam risus. Donec non phoreta purus. Vestibulum tincidunt suscipit augue non volutpat. Donec justo,
-              finibus ornare et quam ornare, quisquam id convallis. Sed at lorem fringilla mollis sodales quam.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+              velit, cursus vel sem ut, consequat nec aliquam risus. Donec non
+              phoreta purus. Vestibulum tincidunt suscipit augue non volutpat.
+              Donec justo, finibus ornare et quam ornare, quisquam id convallis.
+              Sed at lorem fringilla mollis sodales quam.
             </p>
           </div>
           <div className="text-center">
-            <div style={{ color: "#c41e3a", fontSize: "2.5rem", fontWeight: "bold" }}>
-              <span style={{ color: "#c41e3a" }}>▬</span>rability
+            <div className="flex justify-center">
+              <img
+                src="/icons/3rabiity.png"
+                alt="3rabiity"
+                className="h-16"
+              />
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

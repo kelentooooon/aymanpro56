@@ -1,0 +1,36 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 646 250">
+  <defs>
+    <linearGradient id="a" x1="60.888%" x2="26.555%" y1="4.948%" y2="71.857%">
+      <stop offset="0%" stop-color="#00a0ff"/>
+      <stop offset="1%" stop-color="#00a1ff"/>
+      <stop offset="26%" stop-color="#00beff"/>
+      <stop offset="51%" stop-color="#00d2ff"/>
+      <stop offset="76%" stop-color="#00dfff"/>
+      <stop offset="100%" stop-color="#00e3ff"/>
+    </linearGradient>
+    <linearGradient id="b" x1="107.618%" x2="-130.618%" y1="50%" y2="50%">
+      <stop offset="0%" stop-color="#ffe000"/>
+      <stop offset="41%" stop-color="#ffbd00"/>
+      <stop offset="78%" stop-color="orange"/>
+      <stop offset="100%" stop-color="#ff9c00"/>
+    </linearGradient>
+    <linearGradient id="c" x1="86.213%" x2="-50.161%" y1="31.11%" y2="136.36%">
+      <stop offset="0%" stop-color="#ff3a44"/>
+      <stop offset="100%" stop-color="#c31162"/>
+    </linearGradient>
+    <linearGradient id="d" x1="-18.815%" x2="42.077%" y1="-11.837%" y2="35.145%">
+      <stop offset="0%" stop-color="#32a071"/>
+      <stop offset="7%" stop-color="#2da771"/>
+      <stop offset="48%" stop-color="#15cf74"/>
+      <stop offset="80%" stop-color="#06e775"/>
+      <stop offset="100%" stop-color="#00f076"/>
+    </linearGradient>
+  </defs>
+  <rect width="646" height="250" rx="32" fill="#000"/>
+  <path d="M125.5 15.75v218.5L230.8 125z" fill="url(#a)"/>
+  <path d="M230.8 125L125.5 234.25l22.4 12.95L283.25 162.3z" fill="url(#c)"/>
+  <path d="M283.25 87.7L147.9 2.8 125.5 15.75 230.8 125z" fill="url(#d)"/>
+  <path d="M230.8 125l52.45-37.3 33.6 19.4c9.6 5.45 9.6 14.35 0 19.8l-33.6 19.4z" fill="url(#b)"/>
+  <text x="340" y="95" fill="#fff" font-family="Arial, sans-serif" font-size="40" font-weight="400">GET IT ON</text>
+  <text x="340" y="165" fill="#fff" font-family="Arial, sans-serif" font-size="80" font-weight="700">Google Play</text>
+</svg>

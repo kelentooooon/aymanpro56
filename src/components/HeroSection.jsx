@@ -15,8 +15,8 @@ export function HeroSection() {
         <div className="flex items-center">
           <div className="w-full lg:w-1/2">
             <h1 className="text-5xl font-bold mb-3">Welcome To</h1>
-            <div className="mb-4" style={{ color: "#c41e3a", fontSize: "2.5rem", fontWeight: "bold" }}>
-              <span style={{ color: "#c41e3a" }}>▬</span>rability
+            <div className="mb-4">
+              <img src="/icons/3rabiity.png" alt="3rabiity" className="h-16" />
             </div>
             <p className="text-xl mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris lorem sed, placerat a mauris ut, obligat

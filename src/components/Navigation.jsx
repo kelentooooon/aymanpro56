@@ -12,8 +12,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2 font-bold text-2xl text-red-600 hover:text-red-700 transition-colors">
-            <span className="text-red-600">▬</span>
-            <span>rability</span>
+            <img src="/icons/3rabiity.png" alt="3rabiity" className="h-8" />
           </a>
 
           {/* Desktop Menu */}

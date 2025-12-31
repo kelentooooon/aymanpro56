@@ -14,23 +14,23 @@ export function DownloadApp() {
             <img
               src="/icons/app-store.svg"
               alt="Apple App Store"
-              className="max-h-12 object-contain"
+              className="max-h-12 object-contain h-10"
               loading="lazy"
             />
           </a>
           <a href="#" className="no-underline">
             <img
-              src="/icons/google-play.svg"
+              src="/icons/GooglePlay.svg"
               alt="Google Play Store"
-              className="max-h-12 object-contain"
+              className="max-h-12 object-contain h-10"
               loading="lazy"
             />
           </a>
           <a href="#" className="no-underline">
             <img
-              src="/icons/app-gallery.svg"
+              src="/icons/App-Gallery.svg"
               alt="App Gallery"
-              className="max-h-12 object-contain"
+              className="max-h-12 object-contain h-10"
               loading="lazy"
             />
           </a>

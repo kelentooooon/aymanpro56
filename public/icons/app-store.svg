@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="40" viewBox="0 0 120 40">
-  <rect width="120" height="40" rx="5" fill="#000"/>
-  <text x="35" y="15" font-family="Arial" font-size="9" fill="#fff">Download on the</text>
-  <text x="35" y="28" font-family="Arial" font-size="14" font-weight="bold" fill="#fff">App Store</text>
-  <path d="M15 10c-.83 0-1.5.67-1.5 1.5v2.09c0 .42.17.82.46 1.12l2.55 2.55c.3.3.7.46 1.12.46h2.09c.83 0 1.5-.67 1.5-1.5v-4.72c0-.83-.67-1.5-1.5-1.5h-4.72zm4 8.5h-2.09c-.7 0-1.37-.28-1.87-.78l-2.55-2.55c-.5-.5-.78-1.17-.78-1.87v-2.09c0-1.38 1.12-2.5 2.5-2.5h4.72c1.38 0 2.5 1.12 2.5 2.5v4.72c0 1.38-1.12 2.5-2.5 2.5z" fill="#fff" transform="translate(2 8)"/>
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40">
+  <rect width="120" height="40" fill="#000" rx="5"/>
+  <path fill="#fff" d="M24.769 20.301a4.947 4.947 0 0 1 2.357-4.152 5.066 5.066 0 0 0-3.992-2.157c-1.679-.176-3.307 1.005-4.163 1.005-.872 0-2.19-.988-3.608-.958a5.315 5.315 0 0 0-4.473 2.728c-1.934 3.348-.491 8.269 1.361 10.976.927 1.325 2.01 2.805 3.428 2.753 1.387-.058 1.905-.88 3.58-.88 1.658 0 2.144.88 3.59.851 1.489-.02 2.426-1.336 3.32-2.67a10.962 10.962 0 0 0 1.518-3.092 4.782 4.782 0 0 1-2.918-4.404zM22.037 12.211a4.872 4.872 0 0 0 1.115-3.49 4.957 4.957 0 0 0-3.208 1.66 4.636 4.636 0 0 0-1.143 3.36 4.099 4.099 0 0 0 3.236-1.53z"/>
+  <text fill="#fff" font-family="Arial, sans-serif" font-size="9" font-weight="500" x="40" y="13">Download on the</text>
+  <text fill="#fff" font-family="Arial, sans-serif" font-size="15" font-weight="700" x="40" y="28">App Store</text>
 </svg>

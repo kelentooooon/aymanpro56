@@ -5,14 +5,22 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
           <div>
             <h6 className="font-bold mb-3">
-              <span style={{ color: "#c41e3a" }}>▬</span>rability
+              <img
+                src="/icons/3rabiity.png"
+                alt="3rabiity"
+                className="h-8 mb-2"
+              />
             </h6>
             <div className="flex gap-3">
               <a href="#" className="text-white no-underline">
                 <img
                   src="/icons/facebook.svg"
                   alt="Facebook"
-                  className="max-h-8 object-contain"
+                  className="max-h-8 object-contain "
+                  style={{
+                    filter:
+                      "brightness(0) saturate(100%) invert(22%) sepia(95%) saturate(2374%) hue-rotate(343deg) brightness(88%) contrast(96%)",
+                  }}
                   loading="lazy"
                 />
               </a>
@@ -20,7 +28,11 @@ export function Footer() {
                 <img
                   src="/icons/instagram.svg"
                   alt="Instagram"
-                  className="max-h-8 object-contain"
+                  className="max-h-8 object-contain "
+                  style={{
+                    filter:
+                      "brightness(0) saturate(100%) invert(22%) sepia(95%) saturate(2374%) hue-rotate(343deg) brightness(88%) contrast(96%)",
+                  }}
                   loading="lazy"
                 />
               </a>
@@ -28,7 +40,11 @@ export function Footer() {
                 <img
                   src="/icons/x.svg"
                   alt="X (Twitter)"
-                  className="max-h-8 object-contain"
+                  className="max-h-8 object-contain "
+                  style={{
+                    filter:
+                      "brightness(0) saturate(100%) invert(22%) sepia(95%) saturate(2374%) hue-rotate(343deg) brightness(88%) contrast(96%)",
+                  }}
                   loading="lazy"
                 />
               </a>
@@ -70,8 +86,10 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="border-t border-gray-700 pt-3 text-center text-sm text-gray-500">© 2025 All Right Reserved</div>
+        <div className="border-t border-gray-700 pt-3 text-center text-sm text-gray-500">
+          © 2025 All Right Reserved
+        </div>
       </div>
     </footer>
-  )
+  );
 }

@@ -3,14 +3,21 @@ export function Features() {
     { icon: "/icons/tools.svg", title: "Full Maintenance" },
     { icon: "/icons/cart.svg", title: "Store" },
     { icon: "/icons/phone.svg", title: "Call Service" },
-  ]
+  ];
 
   return (
     <section className="py-12 bg-gray-100">
       <div className="w-full px-4">
         <div className="flex items-center gap-3 mb-6">
-          <span style={{ color: "#c41e3a", fontSize: "1.5rem", fontWeight: "bold" }}>▬</span>
-          <h2 className="mb-0 font-bold text-2xl">rability Features</h2>
+          <h2 className="mb-6 sm:mb-8 lg:mb-10 font-bold text-xl sm:text-2xl lg:text-3xl" >
+            <img
+              src="/icons/3rabiity.png"
+              alt="3rabiity"
+              className="h-6 sm:h-8 mb-2 inline-block"
+              style={{ display: "inline-block" }}
+            />
+            Features
+          </h2>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           {features.map((feature, idx) => (
@@ -19,17 +26,23 @@ export function Features() {
                 <img
                   src={feature.icon || "/placeholder.svg"}
                   alt={feature.title}
-                  style={{ width: "60px", height: "60px", objectFit: "contain" }}
+                  style={{
+                    width: "60px",
+                    height: "60px",
+                    objectFit: "contain",
+                  }}
                   className="mb-3 mx-auto"
                   loading="lazy"
                 />
                 <h5 className="font-bold text-lg">{feature.title}</h5>
-                <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+                <p className="text-gray-500">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit!
+                </p>
               </div>
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
